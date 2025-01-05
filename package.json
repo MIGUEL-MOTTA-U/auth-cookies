@@ -6,16 +6,23 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --watch .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "standard",
+    "format": "standard --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "6.1.0",
+    "bcrypt": "5.1.1",
+    "cookie-parser": "1.4.7",
     "dotenv": "16.4.7",
-    "express": "4.21.2"
+    "express": "4.21.2",
+    "jsonwebtoken": "9.0.2",
+    "prisma": "6.1.0"
   },
   "devDependencies": {
+    "@prisma/extension-accelerate": "1.2.1",
     "standard": "17.1.2"
   },
   "eslintConfig": {
